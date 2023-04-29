@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-
-<html lang="PT-BR">
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<style>
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Desde 1940, a Sapataria do Arnaldo conserta sapatos, bolsas e artigos de couro em geral com excelência no atendimento.">
+        <meta name="author" content="Hellen Silva">
+    </head>
+    <style>
 		@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
 
 		body {
-			color: rgba(23, 7, 252, 0.692);
+			color: rgba(0, 0, 0, 0.692);
 		}
 			h1 {
 				line-height: 50%;
 				font-family: 'Cinzel Decorative', cursive;
+				text align: center;
+				font-size: 40;
+				background:;
 				text align: center;
 			}
 
@@ -28,6 +34,8 @@
 
 			td {
 				pedding: 40px;
+				text align: center;
+
 			}
 			p {
 				text align: center;
@@ -35,26 +43,54 @@
 			.texto-dentro-da-tabela{
 			text align: :left;
 		}
-
-	</style>
-	<title>Emrpresa Hellen</title>
+    </style>
+    <title>Empresa Hellen - Home</title>
 </head>
-
-<header>
-	<h1>Programador Front-end</h1>
-	<h3> Desenvolvendo soluções desde 2002.</h3>
-</header>
-<main>
-	<hr>
-	<table>
-		<tr>
-			<td style="padding: 15px">
-				<img src="Img/Imagem1.jpg" height="220px" alt="imagem de um robo" align="left">
-			</td>
-			<td>
-
-				<p class="texto-dentro-da-tabela">
-					Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut
+<body>
+    <header>
+        <!-- Menu de Navegação -->
+        <nav class="menu-navegacao">
+            <ul>
+                <li class="link-menu-principal">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="link-menu-principal">
+                    <a href="catalogo.html">Catálogo</a>
+                </li>
+                <li class="link-menu-principal">
+                    <a href="catalogo.html">Quem somos?</a>
+                </li>
+                <li class="link-menu-principal">
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Programador Front-end</h1>
+        <h2> Desenvolvendo soluções desde 2002.</h2>
+    </header>
+    <hr>
+    <main>
+        <article>
+            <h1 class="titulo-artigo">Quem somos?</h1>
+            <p class="paragrafo-artigo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias placeat fugiat, pariatur fugit vel rerum nulla laborum dolorum vero id!</p>
+        </article>
+    </main>
+    <hr>
+</body>
+</html>
+<table>
+    <tr>
+        <td>
+            <img
+                src="Img/Imagem1.jpg"
+                height="220px"
+                alt="imagem de um robo"
+                align="left"
+            >
+        </td>
+        <td>
+            <p class="texto-dentro-da-tabela">
+                Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut
 					labore et dolore magna aliquyam erat sed diam voluptua at vero eos et accusam et justo duo dolores
 					et ea rebum stet clita kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet.
 
@@ -65,22 +101,60 @@
 					Erat no euismod diam elitr diam erat velit. Diam kasd ipsum sit est laoreet diam commodo laoreet
 					exerci congue hendrerit in vel et takimata accusam est. Elitr sanctus volutpat id at clita kasd et
 					ut sit te et gubergren sadipscing eos takimata sadipscing.
-				</p>
-			</td>
-		</tr>
-	</table>
-	</main>
-	<hr>
-	</html>
-	<hr>
-	
-	<footer>
-		<address>
-		<p align="center"> Entre em contato e conheça as nossas soluções corporativas <br>
-			<a href="malito: contato@programadorfrontend.com">
-				Clique Aqui </a>
-			</address>
-	</footer>
+            </p>
+        </td>
+    </table>
+</main>
+</html>
+<!-- SEÇÃO DE PROJETOS -->
+<div class="projetos">
+    <!-- TÍTULO -->
+    <div class="titulo-secao">
+        <hr id="nossos servicos">
+        <h2>Nossos serviços:</h2>
+    </div>
+    <div class="card">
+        <h3 class="my1 p1">Front-end</h3>
+        <img
+            src="img/img1.jpg"
+            height="200px"
+            width="200px"
+            alt="Front-end"
+        >
+        <p class="lh3 p1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis odio voluptatum
+              recusandae non dolorem accusamus possimus eligendi voluptatibus.
+        </p>
+    </div>
+    <hr>
+    <div class="rodape">
+        <h2> Entre em contato:</h2>
+        <address>
+            <img
+                src="img/email.jpeg"
+                height="30px"
+                width="30px"
+                alt="email"
+            >
+            <a href="mailto:contato@email.com"> contato@email.com</a>
+            <br>
+            <img
+                src="img/local.png"
+                height="30px"
+                width="30px"
+                alt="local"
+            >
+            <a href="https://www.google.com.br/maps/">Clique aqui</a>
+            <br>
+            <img
+                src="img/telefone.png"
+                height="30px"
+                width="30px"
+                alt="telefone"
+            >
+            <a href="(11)91234-5678">Entre em contato</a>
+            <p>Copyright &copy; 2022</p>
+        </address>
+    </div>
 </body>
-
 </html>
